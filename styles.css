@@ -3,8 +3,9 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    flex-shrink: 0;
 }
-.header, .hero {
+.header, .hero, .footer {
     background-color: #1F2937;
 }
 .header {
@@ -113,4 +114,41 @@ h2 {
   font-size: 24px;
   color: #1F2937;
   font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    margin: 150px 300px;
+    padding: 38px 80px;
+    border: #3882F6 solid 3px;
+    border-radius: 10px;
+}
+.signup h3 {
+    color: white;
+    margin: 0;
+}
+.signup p {
+    margin: 0;
+    color: white;
+    font-size: smaller;
+}
+.boton {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton button {
+    border: white solid 2px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.footer {
+    color: white;
+    text-align: center;
+    font-size: small;
 }

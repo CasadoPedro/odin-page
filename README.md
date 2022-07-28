@@ -1,0 +1,1 @@
+Hice un pagina web copiando un modelo de layout. Fue util para combinar todos los conocimientos de HTML, CSS y flexbox que aprendi hasta ahora.
